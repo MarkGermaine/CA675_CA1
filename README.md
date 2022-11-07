@@ -7,8 +7,8 @@ CA675 - Cloud Technologies
 
 ### Task 1: Cloud Infrastructure Setup (AWS, GCP, Azure, …)
 
-1.1 Task 1.1: Install Hadoop and create a Hadoop cluster
-1.2 Task 1.2: Install MapReduce, Pig and Hive to use the cluster created in Task 1.1 
+1. Task 1.1: Install Hadoop and create a Hadoop cluster
+2. Task 1.2: Install MapReduce, Pig and Hive to use the cluster created in Task 1.1 
 
 #### Setting up the AWS EMR Cluster
 
