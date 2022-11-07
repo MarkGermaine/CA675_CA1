@@ -26,7 +26,7 @@ CA675 - Cloud Technologies
 2. Task 2.2: Get data from any public dataset repository
 3. Task 2.3: Load data into chosen cloud technology (AWS, GCP, Azure, …)
 
-- Two CSV files, "toys" and "sports", are avaialbe to download in the data folder.
+Two CSV files, "toys" and "sports", are avaialbe to download in the data folder.
 - This data was sourced from kaggle: https://www.kaggle.com/datasets/naveedhn/amazon-product-review-spam-and-non-spam?select=Electronics
 - And the "data_to_csv_ script was used to convert the json files to csv. Data to csv.py
 - The csv files were uploaded to the "Input" folder of our S3 Bucket. Bucket/input/toys & Bucket/input/sports
