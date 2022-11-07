@@ -7,9 +7,9 @@ CA675 - Cloud Technologies
 
 ### Task 1: Cloud Infrastructure Setup (AWS, GCP, Azure, …)
 
-Task 1.1: Install Hadoop and create a Hadoop cluster
+1. Task 1.1: Install Hadoop and create a Hadoop cluster
 
-Task 1.2: Install MapReduce, Pig and Hive to use the cluster created in Task 1.1 
+2. Task 1.2: Install MapReduce, Pig and Hive to use the cluster created in Task 1.1 
 
 #### Setting up the AWS EMR Cluster
 
@@ -23,9 +23,9 @@ Task 1.2: Install MapReduce, Pig and Hive to use the cluster created in Task 1.1
 
 ### Task 2: Dataset
 
-Task 2.1: Choose a relevant dataset (should be justified)
-Task 2.2: Get data from any public dataset repository
-Task 2.3: Load data into chosen cloud technology (AWS, GCP, Azure, …)
+1. Task 2.1: Choose a relevant dataset (should be justified)
+2. Task 2.2: Get data from any public dataset repository
+3. Task 2.3: Load data into chosen cloud technology (AWS, GCP, Azure, …)
 
 Two CSV files, "toys" and "sports", are avaialbe to download in the data folder.
 This data was sourced from kaggle: https://www.kaggle.com/datasets/naveedhn/amazon-product-review-spam-and-non-spam?select=Electronics
@@ -41,9 +41,9 @@ The output of the script will serve as the "input" for Task 4.
 
 ### Task 4: Ham and Spam using Hive
 
-Task 4.1: Query processed data to differentiate ham and spam part of the dataset
-Task 4.2: Find the top 10 spam accounts
-Task 4.3: Find the top 10 ham accounts
+1. Task 4.1: Query processed data to differentiate ham and spam part of the dataset
+2. Task 4.2: Find the top 10 spam accounts
+3. Task 4.3: Find the top 10 ham accounts
 
 Next we are to query the top 10 Ham and Spam accounts using hive (hive;)
 Run the top_10_ham.hql and top_10_spam.hql scripts in the code folder.
@@ -51,9 +51,9 @@ The output of this identifies the top 10 reviewer IDs in both the ham and the sp
 
 ### Task 5: TF-IDF using MapReduce
 
-Task 5.1: Use MapReduce to calculate the TF-IDF of the top 10 spam keywords for each top
+1. Task 5.1: Use MapReduce to calculate the TF-IDF of the top 10 spam keywords for each top
 10 spam accounts
-Task 5.2: Use MapReduce to calculate the TF-IDF of the top 10 ham keywords for each top
+2. Task 5.2: Use MapReduce to calculate the TF-IDF of the top 10 ham keywords for each top
 10 ham accounts
 
 Run the Pig_tokenize.pig script to clean the summary column and tokenize the cleaned column. TF-IDF to be completed.
