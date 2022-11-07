@@ -26,15 +26,15 @@ CA675 - Cloud Technologies
 2. Task 2.2: Get data from any public dataset repository
 3. Task 2.3: Load data into chosen cloud technology (AWS, GCP, Azure, …)
 
-Two CSV files, "toys" and "sports", are avaialbe to download in the data folder.
-This data was sourced from kaggle: https://www.kaggle.com/datasets/naveedhn/amazon-product-review-spam-and-non-spam?select=Electronics
-And the "data_to_csv_ script was used to convert the json files to csv. Data to csv.py
-The csv files were uploaded to the "Input" folder of our S3 Bucket. Bucket/input/toys & Bucket/input/sports
+- Two CSV files, "toys" and "sports", are avaialbe to download in the data folder.
+- This data was sourced from kaggle: https://www.kaggle.com/datasets/naveedhn/amazon-product-review-spam-and-non-spam?select=Electronics
+- And the "data_to_csv_ script was used to convert the json files to csv. Data to csv.py
+- The csv files were uploaded to the "Input" folder of our S3 Bucket. Bucket/input/toys & Bucket/input/sports
 
 ### Task 3: Clean and process the data using Pig
 
 Once uploaded we head to the Cloud9 CLI and open the grunt shell (pig;)
-Apply the pig script in the code folder: pig_clean_step.pig
+- Apply the pig script in the code folder: pig_clean_step.pig
 
 The output of the script will serve as the "input" for Task 4.
 
@@ -45,8 +45,8 @@ The output of the script will serve as the "input" for Task 4.
 3. Task 4.3: Find the top 10 ham accounts
 
 Next we are to query the top 10 Ham and Spam accounts using hive (hive;)
-Run the top_10_ham.hql and top_10_spam.hql scripts in the code folder.
-The output of this identifies the top 10 reviewer IDs in both the ham and the spam dataset. You can see there are some accounts which are prolific spammers.
+- Run the top_10_ham.hql and top_10_spam.hql scripts in the code folder.
+- The output of this identifies the top 10 reviewer IDs in both the ham and the spam dataset. You can see there are some accounts which are prolific spammers.
 
 ### Task 5: TF-IDF using MapReduce
 
